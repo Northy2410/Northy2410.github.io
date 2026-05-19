@@ -64,6 +64,19 @@ body{
 .back-link{display:inline-block;margin-top:20px;color:var(--neon2);text-decoration:none;font-weight:600;padding:8px 12px;border-radius:6px;transition:all 0.2s}
 .back-link:hover{background:rgba(0,229,255,0.1);transform:translateX(-4px)}
 
+/* Archive section styles */
+.archive-section{max-width:900px;margin:40px auto;padding:20px}
+.archive-header{display:grid;gap:10px;justify-items:start;margin-bottom:24px}
+.section-kicker{margin:0;padding:6px 12px;border-radius:999px;background:rgba(0,229,255,0.12);color:var(--neon2);font-size:0.78rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase}
+.archive-section .spray-head{margin-bottom:0}
+.archive-intro{margin:0;max-width:42rem;color:var(--muted);line-height:1.6}
+.archive-grid{display:grid;grid-template-columns:1fr;gap:20px;margin-bottom:14px}
+.archive-feature{position:relative;overflow:hidden}
+.archive-feature::before{content:"";position:absolute;inset:0 auto auto 0;width:140px;height:140px;background:radial-gradient(circle, rgba(255,0,208,0.14), transparent 70%);pointer-events:none}
+.archive-card-head{display:grid;gap:10px}
+.archive-badge{display:inline-flex;width:max-content;align-items:center;padding:4px 10px;border-radius:999px;background:rgba(156,255,0,0.14);color:var(--neon3);font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase}
+.archive-note{margin:0;color:var(--muted);font-size:0.95rem;line-height:1.5}
+
 /* Projects section styles */
 .projects-section{max-width:900px;margin:40px auto;padding:20px}
 .projects-section .spray-head{margin-bottom:30px}
